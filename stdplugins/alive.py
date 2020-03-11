@@ -36,9 +36,9 @@ async def amireallyalive(alive):
                      f"------------------------------------ \n"
                      f"User: {DEFAULTUSER} \n"
                      " \n\n"
-                     f"Creator: Mayur Karaniya \n"
+                     f"Creator: @ayushjha_2911 \n"
                      " \n\n"
-                     f"Owner: 3Cube TeKnoways \n"
+                     f"Owner: Ayush Jha \n"
                      " \n\n"
-                     f"Userbot: testuserbot "
+                     f"Userbot: AyushJha's Tele-bot "
                      "`")    
