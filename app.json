@@ -1,12 +1,12 @@
 {
-  "name": "BotHub",
-  "description": "Only For Legends..... By : @Three_Cube_TeKnoways",
+  "name": "Tele-bot",
+  "description": "Only For Legends..... By : @ayushjha_2911",
   "logo": "https://telegra.ph/file/d04a1724c6dd8a957bd0e.png",
   "keywords": [
     "bot",
     "hub"
     ],
-  "repository": "https://gitlab.com/mkaraniya/UniBorg",
+  "repository": "https://github.com/ayushjha2911",
   "website": "https://telegram.dog/Bot_Hub_Official_Group",
   "success_url": "https://telegram.dog/Three_Cube_TeKnoways",
   "env": {
