@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Ayush Kumar Jha , India
 from math import ceil
 import asyncio
 import json
@@ -70,7 +70,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             rev_text = query[::-1]
             buttons = paginate_help(0, borg._plugins, "helpme")
             result = builder.article(
-                "© @Bot_Hub_Official™️",
+                "© @AyushJha Tele-bot™️",
                 text="{}\nℂ𝕦𝕣𝕣𝕖𝕟𝕥𝕝𝕪 𝕃𝕠𝕒𝕕𝕖𝕕 ℙ𝕝𝕦𝕘𝕚𝕟𝕤: {}".format(
                     query, len(borg._plugins)),
                 buttons=buttons,
@@ -78,29 +78,25 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         elif query.startswith("tb_btn"):
             result = builder.article(
-                "Button Parser © @Bot_Hub_Official",
-                text=f"powered by @Bot_Hub_Official",
+                "Button Parser © @AyushJha Tele-bot ",
+                text=f"powered by @AyushJha Tele-bot",
                 buttons=[],
                 link_preview=True
             )
         else:
             result = builder.article(
                 "© @Bot_Hub_Official™️",
-                text="""@Bot_Hub_Official **( Custom Built By** @Three_Cube_TeKnoways_bot **)** 
+                text="""@AyushJha Tele-bot **( Custom Built By** @Three_Cube_TeKnoways_bot **)** 
 **Verified Account:** ✅
 **Official Website:** http://www.threecube.tk
 **Pithun 3.7.7 (default, Dec 16 1981, 01:14:52)** 
 **[GCC 7.7.7]**
 **Talethrun 1.10.10**
-**Custom Built Fork:** https://github.com/mkaraniya/BotHub""",
+**Custom Built Fork:** https://github.com/ayushjha2911/Tele-bot""",
                 buttons=[
-                    [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/Three_Cube_TeKnoways"), custom.Button.url(
+                    [custom.Button.url("👤Contact Creator👤", "https://telegram.dog/ayushjha_2911"), custom.Button.url(
                         "🎞My YouTube Channel🎞", "https://www.youtube.com/channel/UCeKQxQK7XZ3jGi3541uWATg?sub_confirmation=1")],
-                    [custom.Button.url("🎛Source Code🎛", "https://github.com/mkaraniya/BotHub"), custom.Button.url(
-                        "❕❗Deploy Me❗❕", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmkaraniya%2FBotHub%2F&template=https%3A%2F%2Fgithub.com%2Fmkaraniya%2FBotHub%2F")],
-                    [custom.Button.url("🔰Update Fork🔰", "tg://need_update_for_some_feature"), custom.Button.url(
-                        "✳️Fork Boost✳️", "tg://some_unsupported_feature"), custom.Button.url(
-                        "♻️Refresh Heroku♻️", "tg://some_unsupported_feature")]
+                    [custom.Button.url("🎛Source Code🎛", "https://github.com/mkaraniya/ayushjha_2911")]
                 ],
                 link_preview=True
             )
@@ -116,10 +112,10 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 event.data_match.group(1).decode("UTF-8"))
             buttons = paginate_help(
                 current_page_number + 1, borg._plugins, "helpme")
-            # https://t.me/TelethonChat/115200
+            # https://t.me/ayushjha_2911
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "⚠️ Warning: Don't Press Any Buttons ⚠️\n\nCustom Fork: https://github.com/mkaraniya/BotHub\n\n\nNote: Bas kar, "
+            reply_pop_up_alert = "⚠️ Warning: Don't Press Any Buttons ⚠️\n\nCustom Fork: https://github.com/ayushjha2911/Tele-bot\n\n\nNote: Bas kar, "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -137,7 +133,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/PaperplaneExtended_news/55
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Please get your own @Bot_Hub_Official™️, and don't edit my messages!"
+            reply_pop_up_alert = "Please get your own @ayushjha_2911™️, and don't edit my messages!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -151,7 +147,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         reply_pop_up_alert = help_string if help_string is not None else \
             "No DOCSTRING has been setup for {} plugin".format(plugin_name)
         reply_pop_up_alert += "\n\n Use .unload {} to remove this plugin\n\
-            © @Three_Cube_TeKnoways".format(plugin_name)
+            © @ayushjha_2911".format(plugin_name)
         await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
