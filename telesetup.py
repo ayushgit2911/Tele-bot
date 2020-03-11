@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# (c) https://t.me/TelethonChat/37677
+# (c) https://t.me/ayushjha_2911
 
 import telethon.sync
 from telethon import TelegramClient, events
@@ -8,7 +8,7 @@ import os
 from config import Development as Config
 
 
-# https://t.me/TelethonChat/13265
+# https://t.me/ayushjha_2911
 client = TelegramClient(input("Enter your username: @"), Config.APP_ID, Config.API_HASH).start()
 
 
