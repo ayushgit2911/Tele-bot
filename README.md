@@ -1,6 +1,6 @@
 #Warning: Use this repo at your own risk
 
-#click_the_BotHub_photo_below_to_deploy
+#click_the_Below_photo_below_to_deploy_Ayush's_Tele-bot
 
 [![Deploy](https://telegra.ph/file/d04a1724c6dd8a957bd0e.png)](https://heroku.com/deploy)
 
