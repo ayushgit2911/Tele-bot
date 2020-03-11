@@ -14,7 +14,7 @@ async def _(event):
         s_helpme_string = borg._plugins[splugin_name].__doc__
     else:
         s_helpme_string = "****:"
-    helpme_string = """@Bot_Hub_Official™️ ( **Custom Built By** @Three_Cube_TeKnoways_bot ) \n**Verified Account**: ✅\n**Official Website**: http://www.threecube.tk\n**NOTICE**: **COMMANDS** are CASE **sensitive**\n**DESCRIPTION**: https://telegra.ph/command-list-for-BotHub-Userbot-11-08\nPithun {}\nTalethrun {}\n
+    helpme_string = """@ayushjha_2911 ™️ ( **Custom Built By** @Ayushtechy ) \n**Verified Account**: ✅\n**Official Website**: http://www.threecube.tk\n**NOTICE**: **COMMANDS** are CASE **sensitive**\n**DESCRIPTION**: https://telegra.ph/command-list-for-BotHub-Userbot-11-08\nPithun {}\nTalethrun {}\n
  """.format(
         sys.version,
         __version__
@@ -51,7 +51,7 @@ async def _(event):
     result = await borg(functions.helpme.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.helpme(result)  # pylint:disable=E0602
-    await event.edit("""Telethon UserBot powered by @Bot_Hub_Official""")
+    await event.edit("""Telethon UserBot powered by @ayushjha_2911""")
 
 
 @borg.on(admin_cmd(pattern="syntax ?(.*)" ))
@@ -61,7 +61,7 @@ async def _(event):
     plugin_name = event.pattern_match.group(1)
     if plugin_name in borg._plugins:
         helpme_string = borg._plugins[plugin_name].__doc__
-        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           © @Three_Cube_TeKnoways_Bot"
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           © @ayushjha_2911"
         if helpme_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{helpme_string}\n{unload_string}"
         else:
