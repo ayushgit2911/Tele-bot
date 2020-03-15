@@ -1,5 +1,5 @@
 # For @UniBorg
-# (c) Shrimadhav U K
+# (c) Ayush Jha
 """Auto Profile Updation Commands `.autoname .autobio`"""
 
 import asyncio
@@ -19,7 +19,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        bio = f"📅 {DMY} | 3Cube | ⌚️ {HM}"
+        bio = f" {DMY} | 𝒜𝓎𝓊𝓈𝒽 𝒦𝓊𝓂𝒶𝓇   |  {HM}"
         logger.info(bio)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
@@ -44,7 +44,7 @@ async def _(event):
     while True:
         DM = time.strftime("%d.%m.%y")
         HM = time.strftime("%H:%M")
-        name = f"⌚{HM} | 3Cube | 📅{DM}"
+        name = f"{HM} | 𝒜𝓎𝓊𝓈𝒽 𝒦𝓊𝓂𝒶𝓇  | {DM}"
         logger.info(name)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
